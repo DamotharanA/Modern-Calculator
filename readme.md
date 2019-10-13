@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style type="text/css">
+<head><style type="text/css">
 	#no{
 		width:286px;
 		height:80px;
@@ -140,6 +137,7 @@
 			document.getElementById('no').value = eva;
 		}
 	</script>
+
 </head>
 <body id="sel">
 <center>
@@ -187,4 +185,4 @@
 </div>
 <center>
 </body>
-</html>
+
