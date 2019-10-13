@@ -1,0 +1,55 @@
+#no{
+  width:286px;
+  height:80px;
+  font-size:20px;
+  border:0px;
+
+
+}
+button{
+  width: 70px;
+  height:50px;
+  background-color:black;
+  border: 0;
+  padding:5px;
+  color:white;
+  font-weight:bold;
+  font-size:15px;
+}
+.set{
+  background:rgb(72, 52, 223,0.9);
+  color:white;
+
+}
+#g{
+  background:rgb(238, 194, 19,1);
+  color:white;
+  width: 288px;
+  height:50px;
+  border: 0;
+  padding:5px;
+  color:white;
+
+
+}
+
+#tab1{
+background-color : black;
+width:12%;
+border-collapse: collapse;
+padding:0;
+}
+
+
+#des{
+border:2px solid black;
+width:288px;
+height:338px;
+}
+
+#lab{
+font-size:30px;
+font-family:italic;
+font-weight:bold;
+color:black;
+}

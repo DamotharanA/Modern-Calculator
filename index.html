@@ -1,138 +1,12 @@
-</html>
+<!DOCTYPE html>
+<html>
 <head>
-	<style type="text/css">
-	#no{
-		width:286px;
-		height:80px;
-		font-size:20px;
-		border:0px;
-		
-		
-	}
-	button{
-		width: 70px;
-		height:50px;
-		background-color:black;
-		border: 0;
-		padding:5px;
-		color:white;
-		font-weight:bold;
-		font-size:15px;
-	}
-	.set{
-		background:rgb(72, 52, 223,0.9);
-		color:white;
-		
-	}
-	#g{
-		background:rgb(238, 194, 19,1);
-		color:white;
-		width: 288px;
-		height:50px;
-		border: 0;
-		padding:5px;
-		color:white;
-		
-		
-	}
-	
-	#tab1{
-	background-color : black;
-	width:12%;
-	border-collapse: collapse;
-	padding:0;
-	}
-	
-	
-	#des{
-	border:2px solid black;
-	width:288px;
-	height:338px;
-	}
-	
-	#lab{
-	font-size:30px;
-	font-family:italic;
-	font-weight:bold;
-	color:black;
-	}
-	
-	
-</style>
+	<link rel="stylesheet" href="style.css">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script type="text/javascript">
-		function nine() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "9";
-		}
-		function eight() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "8";
-		}
-		function seven() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "7";
-		}
-		function six() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "6";
-		}
-		function five() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "5";
-		}
-		function four() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "4";
-		}
-		function three() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "3";
-		}
-		function two() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "2";
-		}
-		function one() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "1";
-		}
-		function zero() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "0";
-		}
-		function add() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "+";
-		}
-		function sub() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "-";
-		}
-		function mul() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "*";
-		}
-		function dot() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + ".";
-		}
-		function div() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = input + "/";
-		}
-
-		function clc() {
-			var input = document.getElementById('no').value;
-			document.getElementById('no').value = "";
-		}
-
-		function equa() {
-			var eva = eval(document.getElementById('no').value);
-			document.getElementById('no').value = eva;
-		}
-	</script>
+  <script src="script.js"></script>
+	<title>Simple Calculator</title>
 </head>
+
 <body id="sel">
 <center>
 	<br><br><br><br><br><br>
@@ -171,9 +45,8 @@
 <td><button onclick="clc()" id="cc">C</button></td>
 <td><button onclick="div()" id="cc" class="set">/</button></td>
 </tr>
-
-
 </table>
+
 </b>
 <button onclick="equa()" id="g">=</button>
 </div>
