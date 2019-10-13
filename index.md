@@ -1,5 +1,3 @@
-
-<html>
 <head>
 <style type="text/css">
 	#no{
@@ -187,4 +185,3 @@
 </div>
 <center>
 </body>
-</html>
